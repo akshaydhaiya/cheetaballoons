@@ -57,22 +57,19 @@
                             <div class="main-menu d-none d-lg-block">
                             <?php //dd($_SERVER['REQUEST_URI'])?>
                             <?php
-                      function active($currect_page){
-                        $url_array =  explode('/', $_SERVER['REQUEST_URI']) ;
-                        $url = end($url_array);  
-                        if($currect_page == $url){
-                            echo 'active'; //class name in css 
-                        } 
-                      }
+                    
                       ?>
+                      <?php //$activePage = basename($_SERVER['REQUEST_URI']);
                       
+                      ?>
+
                                 <nav>
-                                    <ul id="navigation">
-                                    <li><a class="<?php active('index');?>" href="index">Home</a></li>
-                                    <li><a class="<?php active('about');?>" href="about">About</a></li>
-                                    <li><a class="<?php active('product');?>" href="product">Products</a></li>
-                                    <li><a class="<?php active('gallery');?>" href="gallery">Gallery</a></li>
-                                    <li><a class="<?php active('contact');?>" href="contact">Contact</a></li>
+                                    <ul id="navigation">                                     
+                                    <li><a class="<?php if (basename($_SERVER["REQUEST_URI"]) == 'index') echo "active";?>" href="index">Home</a></li>
+                                    <li><a class="<?php if (basename($_SERVER["REQUEST_URI"]) == 'about') echo "active";?>" href="about">About</a></li>
+                                    <li><a class="<?php if (basename($_SERVER["REQUEST_URI"]) == 'product') echo "active";?>" href="product">Product</a></li>
+                                    <li><a class="<?php if (basename($_SERVER["REQUEST_URI"]) == 'gallery') echo "active";?>" href="gallery">Gallery</a></li>
+                                    <li><a class="<?php if (basename($_SERVER["REQUEST_URI"]) == 'contact') echo "active";?>" href="contact">Contact</a></li>
 
                                     </ul>
                                 </nav>

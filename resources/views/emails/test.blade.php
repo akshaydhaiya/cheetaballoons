@@ -79,21 +79,24 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
                     </td>
                 </tr>
                 <tr>
+                    <td align="left" >
+                    <p>Sent by &nbsp;       :&nbsp; {{ $test_name }} <br>
+                       Mail To &nbsp;&nbsp; :&nbsp; {{ $test_email }} <br>
+                       Phone NO             :       {{ $test_phone }} <br>
+                    </p>
+                    
+                        
+
+                    </td>
+                </tr>
+                <tr>
                     <td class="content">
 
                         <h2>User message</h2>
 
                         <p>{{ $test_message }}</p>
 
-                        <table>
-                            <tr>
-                                <td align="center">
-                                    <p>
-                                        <a href="#" class="button">Share the Awesomeness</a>
-                                    </p>
-                                </td>
-                            </tr>
-                        </table>
+                        
 
 
 
@@ -106,15 +109,7 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
     <tr>
         <td class="container">
 
-            <!-- Message start -->
-            <table>
-                <tr>
-                    <td class="content footer" align="center">
-                        <p>Sent by {{ $test_name }}, </p>
-                        <p><a href="mailto:">Mail To{{ $test_email }}</a> </p>
-                    </td>
-                </tr>
-            </table>
+            
 
         </td>
     </tr>

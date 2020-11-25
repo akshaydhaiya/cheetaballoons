@@ -23,16 +23,15 @@ class TestEmail extends Mailable
     public function build()
     {
         $address = $this->data['email'];
-        $subject = $this->data['subject'];
         $name = $this->data['name'];
 
         return $this->view('emails.test')
                     ->from($address, $name)
                     ->cc($address, $name)
                     ->replyTo($address, $name)
-                    ->subject($subject)
                     ->with([ 'test_message' => $this->data['message']])
                     ->with([ 'test_name' => $this->data['name']])
+                    ->with([ 'test_phone' => $this->data['phoneNo']])
                     ->with([ 'test_email' => $this->data['email']]);
 
 

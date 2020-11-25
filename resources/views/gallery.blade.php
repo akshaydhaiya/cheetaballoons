@@ -99,6 +99,41 @@
 							<div class="single-gallery-image" style="background: url(img/elements/g13.jpg);"></div>
 						</a>
 					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g14.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g14.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g15.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g15.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g16.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g16.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g17.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g17.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g18.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g18.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g19.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g19.jpg);"></div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="img/elements/g20.jpg" class="img-pop-up">
+							<div class="single-gallery-image" style="background: url(img/elements/g20.jpg);"></div>
+						</a>
+					</div>
 				</div>
 			</div>
         </div>

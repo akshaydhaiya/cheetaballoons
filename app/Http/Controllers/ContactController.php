@@ -16,7 +16,7 @@ class ContactController extends Controller
          $table->message=$req->input('message');
          $table->name=$req->input('name');
          $table->email=$req->input('email');
-         $table->subject=$req->input('subject');
+         $table->phoneNo=$req->input('phoneNo');
  
          $table->save();
            
@@ -24,7 +24,8 @@ class ContactController extends Controller
           'message'  =>$req->message,
           'name'     =>$req->name,
           'email'    =>$req->email,
-          'subject'  =>$req->subject,
+          'phoneNo'  =>$req->phoneNo,
+          
          );
 
         //  $data = ['message' => 'This is a test!'];
